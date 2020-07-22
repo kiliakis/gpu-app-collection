@@ -7,8 +7,8 @@ import shutil
 import stat
 
 name_replacements = {
-    '{}-ispass2009-1.0': 'ispass-2009-(\w+)',
-    '{}-parboil-0.2': 'parboil-(\w+)'
+    '{}-ispass2009-1.0': 'ispass-2009-(.*)',
+    '{}-parboil-0.2': 'parboil-(.*)'
 }
 
 
